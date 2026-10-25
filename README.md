@@ -1,11 +1,20 @@
-# Grok Bot 中文逗號快捷鍵修正
+<div align="center">
+  <img src="assets/robot-icon.png" alt="Grok Bot 中文快捷鍵工具" width="104" />
+  <h1>Grok Bot 中文快捷鍵修正</h1>
+  <p>一個快捷鍵，讓中文輸入順手一點。</p>
+  <p>Windows 10 / 11 · 離線運作 · MIT 開源</p>
+  <p><a href="https://github.com/thinkingpower-labs/GrokBotChineseFix/releases/latest"><strong>下載 Windows 版</strong></a> · <a href="#下載後使用">快速開始</a> · <a href="LICENSE">MIT 授權</a></p>
+</div>
 
-[Code signing policy](CODE_SIGNING_POLICY.md) — 正在申請正式簽章；目前 v1.0.1 執行檔仍未簽章。
+---
 
+在 Grok Bot 桌面版按下 `Ctrl + ,`，直接輸入全形逗號 **，**，不再跳出設定視窗。
 
-<img src="assets/robot-icon.png" alt="GrokBotChineseFix 機器人圖示" width="88">
+| 只在需要時作用 | 隨時暫停或結束 | 不改動原軟體 |
+| --- | --- | --- |
+| 僅在 Grok Bot 位於前景時攔截快捷鍵 | 控制視窗一鍵切換 | 其他程式的快捷鍵維持原樣 |
 
-Windows 上的 Grok Bot 桌面版把 `Ctrl + ,` 用來開啟設定。這個小工具只在 Grok Bot 視窗位於前景時攔截該組合鍵，改為輸入全形逗號 `，`。其他程式的 `Ctrl + ,` 維持原本功能。
+本工具由思惟力量維護，與 Grok Bot 及 xAI 無關。
 
 ## 下載後使用
 
@@ -13,7 +22,7 @@ Windows 上的 Grok Bot 桌面版把 `Ctrl + ,` 用來開啟設定。這個小�
 2. 雙擊執行。控制視窗顯示「運作中」即已啟用。請保持程式執行。
 3. 在 Grok Bot 的文字輸入框按 `Ctrl + ,`，應輸入 `，`，且不開啟設定。
 
-需要 Windows 10/11 與 .NET Framework 4.x；不需要安裝 AutoHotkey。執行檔未簽章，Windows 可能顯示下載檔案的安全提示。原始碼在本儲存庫的 `GrokBotChineseFix.cs`。
+需要 Windows 10/11 與 .NET Framework 4.x；不需要安裝 AutoHotkey。執行檔未簽章，Windows 可能顯示下載檔案的安全提示。簽章資訊請見 [Code signing policy](CODE_SIGNING_POLICY.md)。原始碼在本儲存庫的 `GrokBotChineseFix.cs`。
 
 按控制視窗的「暫停快捷鍵」可暫停攔截，再按一次恢復；按「結束程式」或關閉視窗即可停止。再次雙擊執行檔會顯示已開啟的控制視窗。
 
@@ -37,7 +46,11 @@ Windows 上的 Grok Bot 桌面版把 `Ctrl + ,` 用來開啟設定。這個小�
 
 On Windows, this utility turns `Ctrl + ,` into the fullwidth comma `，` only while the Grok Bot desktop window is in the foreground. Download `GrokBotChineseFix.exe` from the latest Release and double-click it. The window lets you pause or exit. Other apps keep their normal shortcut behavior. Windows 10/11 and .NET Framework 4.x are required. For automatic startup, put a shortcut to the EXE in `shell:startup`. The AutoHotkey v2 script is an optional alternative; do not run both versions together.
 
-## 支持與聯繫
+## 思惟力量
+
+[公司網站](http://www.thinkingpower.com.tw) · [聯繫我們](mailto:service@thinkingpower.com.tw) · [更多工具](https://github.com/thinkingpower-labs)
+
+如果這個工具幫上忙，歡迎請我們喝杯咖啡；也可以加入 LINE 與我們聯繫。
 
 <table>
   <tr>
