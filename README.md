@@ -36,3 +36,18 @@ Windows 上的 Grok Bot 桌面版把 `Ctrl + ,` 用來開啟設定。這個小�
 ## English
 
 On Windows, this utility turns `Ctrl + ,` into the fullwidth comma `，` only while the Grok Bot desktop window is in the foreground. Download `GrokBotChineseFix.exe` from the latest Release and double-click it. The window lets you pause or exit. Other apps keep their normal shortcut behavior. Windows 10/11 and .NET Framework 4.x are required. For automatic startup, put a shortcut to the EXE in `shell:startup`. The AutoHotkey v2 script is an optional alternative; do not run both versions together.
+
+## 支持與聯繫
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="payment-qr.png" alt="請我們喝杯咖啡" width="112" /><br />
+      <sub>☕ 請我們喝杯咖啡</sub>
+    </td>
+    <td align="center">
+      <img src="line-qr.png" alt="加入思惟力量 LINE" width="112" /><br />
+      <sub>加入思惟力量 LINE</sub>
+    </td>
+  </tr>
+</table>
